@@ -10,71 +10,70 @@ The branch is organized as follows:
 
 ```
 DMSTO24-DS/
-├── uppgift1.py
-├── uppgift2.py
-├── uppgift3.py
-├── uppgift4.py
-├── uppgift5.py
-├── uppgift6.py
-├── uppgift7.py
-├── uppgift8.py
-├── uppgift9.py
-├── uppgift10.py
-├── uppgift11.py
-├── uppgift12.py
+├── uppgift_1.py
+├── uppgift_2.py
+├── uppgift_3.py
+├── uppgift_4.py
+├── uppgift_5.py
+├── uppgift_6.py
+├── uppgift_7.py
+├── uppgift_8.py
+├── uppgift_9.py
+├── uppgift_10.py
+├── uppgift_11.py
+├── uppgift_12.py
 ├── tests/
-│   ├── test_uppgift1.py
-│   ├── test_uppgift2.py
-│   ├── test_uppgift3.py
-│   ├── test_uppgift4.py
-│   ├── test_uppgift5.py
-│   ├── test_uppgift6.py
-│   ├── test_uppgift7.py
-│   ├── test_uppgift8.py
-│   ├── test_uppgift9.py
-│   ├── test_uppgift10.py
-│   ├── test_uppgift11.py
-│   ├── test_uppgift12.py
+│   ├── test_uppgift_1.py
+│   ├── test_uppgift_2.py
+│   ├── test_uppgift_3.py
+│   ├── test_uppgift_4.py
+│   ├── test_uppgift_5.py
+│   ├── test_uppgift_6.py
+│   ├── test_uppgift_7.py
+│   ├── test_uppgift_8.py
+│   ├── test_uppgift_9.py
+│   ├── test_uppgift_10.py
+│   ├── test_uppgift_11.py
+│   ├── test_uppgift_12.py
 └── README.md
 ```
 
 ### Assignment Files and Descriptions
 
 1. **`uppgift1.py`**
-   - *Description:* Implements basic data structures such as arrays and linked lists, along with fundamental operations like insertion, deletion, and search.
+   - *Description:* The file uppgift_1.py defines a function named is_odd that determines whether a given integer is odd. The function takes an integer as input and returns True if the number is odd (i.e., not divisible by 2) and False otherwise.
 
 2. **`uppgift2.py`**
-   - *Description:* Focuses on stack and queue implementations, including applications like balancing parentheses and expression evaluation.
+   - *Description:* Implements a method sum_list, which takes a list of numbers and returns the sum of all the elements in the list. Additionally, the file demonstrates the function's usage by calculating the sum of predefined lists and a range of numbers.
 
 3. **`uppgift3.py`**
-   - *Description:* Introduces binary tree structures, covering insertion, deletion, and traversal algorithms (in-order, pre-order, post-order).
+   - *Description:* Defines a function is_prime that checks if a given number is a prime number. The script includes a main function that tests this functionality with various numbers.
 
 4. **`uppgift4.py`**
-   - *Description:* Explores graph data structures, including representations (adjacency list/matrix) and traversal methods like depth-first search (DFS) and breadth-first search (BFS).
+   - *Description:* Contains a function factorial that computes the factorial of a non-negative integer. The main function demonstrates this by calculating the factorial of sample numbers.
 
 5. **`uppgift5.py`**
-   - *Description:* Delves into sorting algorithms such as quicksort, mergesort, and heapsort, analyzing their time and space complexities.
+   - *Description:* Implements a function fibonacci that returns the nth Fibonacci number. The script's main function showcases this by computing Fibonacci numbers for given indices.
 
 6. **`uppgift6.py`**
-   - *Description:* Examines hashing techniques, hash table implementations, and collision resolution strategies like chaining and open addressing.
+   - *Description:* Provides a function reverse_string that reverses a given string. The main function tests this by reversing sample strings.
 
 7. **`uppgift7.py`**
-   - *Description:* Studies dynamic programming concepts, solving problems like the knapsack problem and Fibonacci sequence computations.
-
+   - *Description:* Defines a function validate_password that checks if a password meets certain criteria: at least 8 characters long and contains at least one digit. The main function tests this validation with example passwords.
 8. **`uppgift8.py`**
-   - *Description:* Investigates greedy algorithms with applications in optimization problems, including activity selection and Huffman coding.
+   - *Description:* Contains a function count_vowels that counts the number of vowels in a given string. The main function demonstrates this by counting vowels in sample strings.
 
 9. **`uppgift9.py`**
-   - *Description:* Focuses on graph algorithms for shortest paths, such as Dijkstra's and Bellman-Ford algorithms, and their practical applications.
+   - *Description:* Implements a function palindrome_check that determines whether a given string is a palindrome. The main function tests this with various sample strings.
 
 10. **`uppgift10.py`**
-    - *Description:* Explores advanced tree structures like AVL trees and red-black trees, emphasizing self-balancing properties and operations.
+    - *Description:* Provides a function celsius_to_fahrenheit that converts a temperature from Celsius to Fahrenheit. The main function demonstrates this conversion with sample temperatures.
 
 11. **`uppgift11.py`**
-    - *Description:* Introduces network flow algorithms, including the Ford-Fulkerson method, with applications in maximizing flow in networks.
+    - *Description:* Defines a function word_count that counts the number of words in a given string. The main function tests this functionality with sample sentences.
 
 12. **`uppgift12.py`**
-    - *Description:* Covers computational geometry topics, such as convex hull algorithms and their use cases in computer graphics and GIS.
+    - *Description:* Contains a function create_student_register that takes a list of student names and ages, and returns a dictionary mapping names to ages. The main function demonstrates this by creating a sample student register.
 
 ### Test Files
 
