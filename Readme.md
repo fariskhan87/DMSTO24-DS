@@ -79,7 +79,7 @@ DMSTO24-DS/
 
 Each assignment has a corresponding test file located in the `tests` directory:
 
-- **`tests/test_uppgift1.py`** to **`tests/test_uppgift12.py`**
+- **`tests/test_uppgift_1.py`** to **`tests/test_uppgift_12.py`**
   - *Description:* Contains unit tests for the respective assignment file, covering various cases to ensure the correctness and robustness of the implementations.
 
 ## How to Use
