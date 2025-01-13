@@ -1,8 +1,15 @@
-# Uppgift 6
-# Skapa en funktion multiplication_table(n, limit) som returnerar multiplikationstabellen för n upp till limit i en lista.
+def multiplication_table(n, limit):
+    result = []
+    for i in range(1, limit + 1):
+        result.append(n * i)
+    return result
 
-def funktions_namn(variabel_namn: datatyp) -> returtyp:
-    """
-    Skriv beskrivning här.
-    """
-    pass # Ta bort denna rad och skriv din kod här
+def main():
+    n = 15
+    limit = 10
+    multiplication_result = multiplication_table(n, limit)
+    print(multiplication_result)
+
+
+if __name__ == "__main__":
+    main()

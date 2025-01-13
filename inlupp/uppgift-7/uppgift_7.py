@@ -1,8 +1,17 @@
-# Uppgift 7
-# Skapa en funktion validate_password(password) som kontrollerar att lösenordet är minst 8 tecken långt och innehåller minst en siffra.
+def validate_password(password):
+    if len(password) < 8:
+        return False
+    for char in password:
+        if char.isdigit():
+            return True
+    return False
 
-def funktions_namn(variabel_namn: datatyp) -> returtyp:
-    """
-    Skriv beskrivning här.
-    """
-    pass # Ta bort denna rad och skriv din kod här
+def main():
+    password = "password123"
+    print(validate_password(password))
+    password = "short"
+    print(validate_password(password))
+
+
+if __name__ == "__main__":
+    main()

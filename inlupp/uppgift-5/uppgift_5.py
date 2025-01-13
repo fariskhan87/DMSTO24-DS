@@ -1,8 +1,10 @@
-# Uppgift 5
-# Skapa en funktion filter_odd(numbers) som returnerar en lista med alla jämna tal från den givna listan.
+def filter_odd(numbers):
+    return [num for num in numbers if num % 2 == 0]
 
-def funktions_namn(variabel_namn: datatyp) -> returtyp:
-    """
-    Skriv beskrivning här.
-    """
-    pass # Ta bort denna rad och skriv din kod här
+def main():
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    result = filter_odd(numbers)
+    print(result)
+
+if __name__ == "__main__":
+    main()

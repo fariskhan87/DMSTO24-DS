@@ -1,8 +1,20 @@
-# Uppgift 9
-# Skapa en funktion is_palindrome(string) som kontrollerar om en given sträng är ett palindrom (dvs. samma framifrån och bakifrån).
+def is_palindrome(string):
+    cleaned_string = ""
+    for char in string:
+        if ('a' <= char <= 'z') or ('A' <= char <= 'Z') or ('0' <= char <= '9'):
+            cleaned_string += char.lower()
+    reversed_string = ""
+    for char in cleaned_string:
+        reversed_string = char + reversed_string
+    return cleaned_string == reversed_string
 
-def funktions_namn(variabel_namn: datatyp) -> returtyp:
-    """
-    Skriv beskrivning här.
-    """
-    pass # Ta bort denna rad och skriv din kod här
+def main():
+    string = "A man, a plan, a canal, Panama"
+    print(is_palindrome(string))
+    string = "Hello"
+    print(is_palindrome(string))
+
+
+if __name__ == "__main__":
+    main()
+

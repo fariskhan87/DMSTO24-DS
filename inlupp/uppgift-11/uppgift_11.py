@@ -1,8 +1,14 @@
-# Uppgift 11
-# Skapa en funktion word_count(text) som returnerar antalet ord i en given text.
+def word_count(text):
+    if isinstance(text, str):
+        return len(text.split())
+    return 0
 
-def funktions_namn(variabel_namn: datatyp) -> returtyp:
-    """
-    Skriv beskrivning här.
-    """
-    pass # Ta bort denna rad och skriv din kod här
+def main():
+    print("Testar word_count:")
+    print(word_count("Hello world"))
+    print(word_count(""))
+    print(word_count(123)) 
+
+
+if __name__ == "__main__":
+    main()

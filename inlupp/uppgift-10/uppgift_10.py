@@ -1,8 +1,12 @@
-# Uppgift 10
-# Skapa en funktion celsius_to_fahrenheit(celsius) som konverterar en temperatur från Celsius till Fahrenheit.
+def celsius_to_fahrenheit(celsius):
+    return celsius * 9/5 + 32
 
-def funktions_namn(variabel_namn: datatyp) -> returtyp:
-    """
-    Skriv beskrivning här.
-    """
-    pass # Ta bort denna rad och skriv din kod här
+def main():
+    celsius = 0
+    print(celsius_to_fahrenheit(celsius))  # Output: 32.0
+    celsius = 100
+    print(celsius_to_fahrenheit(celsius))
+
+
+if __name__ == "__main__":
+    main()
